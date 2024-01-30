@@ -1,1 +1,2 @@
-# 第一次尝试使用Git和GitHub
+第一次尝试使用Git和GitHub
+好吧GitHub失败了，用git实在是连不上，还是用Gitee了
