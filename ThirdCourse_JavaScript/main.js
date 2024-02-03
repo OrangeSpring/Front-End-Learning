@@ -8,7 +8,7 @@ console.log("Hello World".toUpperCase());
 var NameA = "DasAuto";//var是全局变量
 console.log(NameA);
 
-let a = 1 + 1;//let是局部变量, 用于存放数字时类似于C语言中的double型
+let a = 1 + 1;//let是局部变量, JavaScript中变量用于存放数字时类似于C语言中的double型
 console.log(a);
 
 NameA = "Simon";
