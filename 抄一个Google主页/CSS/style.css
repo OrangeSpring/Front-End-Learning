@@ -10,17 +10,17 @@ body {
 .TopIconImg {
     width: 272px;
     height: 92px;
-    margin-left: -186px;
+    margin-left: -136px;
     padding-left: 50%;
 }
 
 .Search {
-    margin-top: 20px;
+    margin-top: 30px;
     border: 1px solid #dfe1e5;
     border-radius: 25px;
-    width: 50%;
+    width: 40%;
     position: relative;
-    margin-left: 25%;
+    margin-left: 30%;
     background-color: white;
 }
 
@@ -43,3 +43,8 @@ body {
     background-color: transparent;
     right: 20px;
 }
+
+/* CSS样式部分参考资料: 
+https://blog.csdn.net/qq_43968080/article/details/103186302
+https://blog.csdn.net/lwang_hello/article/details/79747336
+*/
