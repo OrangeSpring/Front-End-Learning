@@ -37,7 +37,9 @@ body {
 #SearchB {
     position: absolute;
     margin: auto;
-    top: 0;
-    bottom: 0;
+    top: 10px;
+    bottom: 10px;
+    border: none;
+    background-color: transparent;
     right: 20px;
 }
