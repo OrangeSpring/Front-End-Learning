@@ -1,0 +1,43 @@
+body {
+    font-size: 24px;
+}
+
+.TopIcon {
+    margin-top: 25vh;
+    width: 100%;
+}
+
+.TopIconImg {
+    width: 272px;
+    height: 92px;
+    margin-left: -186px;
+    padding-left: 50%;
+}
+
+.Search {
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    background-color: white;
+}
+
+#SearchT {
+    margin-left: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24px;
+    line-height: 2em;
+    width: 85%;
+}
+
+#SearchB {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 20px;
+}
