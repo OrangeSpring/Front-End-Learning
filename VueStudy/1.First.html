@@ -9,7 +9,14 @@
 <body>
 
 <div id="app">
-    {{ msg }}
+    <h1>{{ msg }}</h1>
+    <a href="https://www.bilibili.com">{{ count }}</a>
+
+    <p>{{ nickname }}</p>
+    <p>{{ nickname.toUpperCase() }}</p>
+    <p>{{ nickname + '你好' }}</p>
+    <p>{{ age >= 18 ? '成年' : '未成年' }}</p>
+    <p>{{ friend.name }} {{ friend.desc }}</p>
 </div>
 
 
@@ -19,7 +26,14 @@
     const app = new Vue({
         el:'#app',
         data:{
-            msg: 'Hello Vue!'
+            msg: 'Hello Vue!',
+            count: '666',
+            nickname: 'Orange',
+            age: 18,
+            friend: {
+                name: 'Steve',
+                desc: '热爱学习'
+            }
         }
     })
 </script>
