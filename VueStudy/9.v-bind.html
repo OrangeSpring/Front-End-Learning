@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- 'v-bind:' 可以替换成 ':' -->
+    <img v-bind:src="urlData" v-bind:title="textData" alt="">
+    <img :src="urlData" :title="textData" alt="">
+  </div>
+  <script src="./vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        urlData: 'https://backiee.com/static/wpdb/wallpapers/v2/1000x563/386585.jpg',
+        textData: '前进'
+      }
+    })
+
+  </script>
+</body>
+</html>
